@@ -1,3 +1,4 @@
+/* DRY ---> Do not repeat yourself */
 document.getElementById('deposit-btn').addEventListener('click', function () {
     const newDepositAmount = getInputFieldValueById('deposit-field');
 
